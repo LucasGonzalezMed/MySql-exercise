@@ -1,0 +1,46 @@
+1 – Crear las siguientes tablas y realizar el insert de los datos
+
+Empleados					
+Legajo	Nombre	Edad	idFuncion	IdDepto	Salario
+10	Fernando Cappi	52	10	100	65000
+15	Pablo Perez	35	20	200	45000
+45	Juan Diaz 	28	30	200	52000
+26	Paula Juarez	45	40	300	51000
+18	Julian Fernandez	29	20	200	44000
+55	Diego Soler	33	20	200	42000
+30	Noelia Rao	46	40	300	52000
+					
+Funcion					
+IdFuncion	Desc_funcion				
+10	Gerente				
+20	Vendedor				
+30	Supervisor				
+40	Analista				
+					
+Departamento					
+IdDepto	Desc_depto				
+100	Administracion				
+200	Ventas				
+300	Comercial				
+400	RRHH				
+					
+Clientes					
+ID	Nombre 	Edad			
+25	Maira Souto	35			
+450	Julian Fernandez	29			
+78	Karina Velez	89			
+88	Martin Serra	18			
+99	Ricardo Villa	50			
+715	Chiara Gomez	21			
+
+2 – Crear una tabla de logs para registrar los cambios en la tabla empleados con los siguientes datos: Fecha, usuario, acción, legajo
+3 – Hacer un trigger que inserte en la tabla logs cada vez que se borra un empleado
+4 – Mostrar en un select los datos nombre y edad de la tabla empleados y clientes, usar union, intersección y minus ordenado por edad y nombre
+5 – Mostrar el salario más alto de cada departamento ordenado por departamento descendente
+6 – Hacer un store procedure que reciba como parámetros la descripción del departamento y la edad y muestre todos los empleados de ese departamento que tengan la edad mayor a la recibida como parámetro
+7 – Hacer una vista con el nombre Emp_funcion que tenga los siguientes datos: legajo, nombre, salario y descripción de la función de los empleados que tengan el salario mayor a 50000 ordenados por función y nombre
+8 – Dar permisos sobre la tabla Empleados al usuario Perez. Sacar los permisos al usuario Gomez sobre la tabla clientes
+9 – Agregar la columna ciudad en la tabla clientes. Actualizar los clientes con id menor a 99 con la cuidad Buenos Aires y el resto con la ciudad Rosario
+10 – Mostrar las 3 primeras letras del nombre de todos los empleados que el nombre empiece P y la edad sea menor a 40
+11 – Hacer un store procedure que reciba como parámetros el depto. y muestre los datos de los empleados
+12 - Definir claves primarias y secundarias de todas las tablas
