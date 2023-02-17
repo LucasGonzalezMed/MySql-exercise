@@ -1,0 +1,15 @@
+1 - Crear la tabla Alumnos_aprobados con los siguientes datos: DNI, Nombre, Materia, Nota
+2 - Crear un trigger que inserte los datos en la tabla Alumnos BACK cuando se agregue un alumno en la Tabla Alumnos
+3 - Crear una tabla de logs de la tabla alumnos con los siguientes datos: fecha, usuario, accion, dni, nombre
+4- Agregar a la tabla Colegio una columna con la ciudad
+5 - Actualizar los datos de la tabla Colegio con la ciudad Buenos Aires para los id 1,3 y 5 y con la ciudad Rosario los id 2 y 4
+6 - Hacer un trigger que inserte datos en la tabla log cuando se realiza un delete, update o insert
+7 - Hacer un Store procedure que reciba como parámetro nota y materia y traiga todos los datos de los alumnos de la materia ingresada y con nota mayor igual a la solicitada
+8 - Hacer un sp que que reciba como parámetro el id del colegio y traiga los datos de todos los alumnos y la descripción del colegio
+9 - Hacer un trigger que registre en una tabla de log cada vez que se elimina un colegio
+10 - Borrar el colegio ID 5
+11 - Definir claves primarias y secundarias de las tablas de log
+12 - Dar permisos de select sobre la tabla log al usuario Perez
+13- Hacer un UNION entre las tablas alumnos y alumnos back sin mostrar repetidos
+14- Hacer un UNION entre las tablas alumnos y alumnos back sin eliminar repetidos
+15- Usar Minus para mostrar DNI y Nombre de los alumnos que no tuvieron ninguna modificación en los datos 
